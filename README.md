@@ -15,8 +15,18 @@ Número de acessos simultâneos: O Pinterest pode receber milhões de acessos si
 Requisitos de segurança: O Pinterest deve proteger os dados dos usuários, incluindo informações pessoais e imagens sensíveis.
 
 ### Detalhes das características
-O DAO surgiu pela primeira vez na década de 1990 como parte da arquitetura de software Java EE. Ele foi projetado para abstrair a lógica de acesso a dados do código de negócios em aplicativos de camada de servidor. Com a popularização do paradigma de programação orientada a objetos, o DAO se tornou um padrão popular em muitas outras linguagens de programação.
+Nicho de mercado: O Pinterest é voltado para um público global, com uma grande variedade de interesses. O site é popular entre usuários de todas as idades, gêneros e origens. O Pinterest é particularmente popular entre mulheres, jovens e usuários de dispositivos móveis.
 
-## Como o DAO funciona?
-O DAO encapsula o código de acesso a dados em um objeto separado, permitindo que a lógica de negócios se concentre na manipulação dos objetos de domínio e não na manipulação dos dados subjacentes. O DAO fornece uma interface abstrata que é usada pelas classes de negócios para interagir com o banco de dados, e pode ser implementado usando diferentes tecnologias de acesso a dados, como JDBC, Hibernate, JPA, etc.
+Número de clientes: O Pinterest tem mais de 400 milhões de usuários ativos mensais. Isso significa que o site recebe bilhões de visitas todos os meses. O Pinterest é um dos sites mais populares do mundo, com uma base de usuários global.
 
+Número de acessos simultâneos: O Pinterest pode receber milhões de acessos simultâneos. Isso significa que o sistema deve ser capaz de lidar com uma grande quantidade de tráfego. O Pinterest usa uma variedade de tecnologias para escalar o sistema e lidar com o tráfego.
+
+Requisitos de segurança: O Pinterest deve proteger os dados dos usuários, incluindo informações pessoais e imagens sensíveis. O site usa uma variedade de tecnologias de segurança para proteger os dados dos usuários. O Pinterest também tem uma equipe de segurança dedicada que trabalha para proteger os dados dos usuários.
+
+## Detalhando a arquitetura do sistema
+O Pinterest usa uma arquitetura baseada em microsserviços. Essa arquitetura permite que o sistema seja dividido em componentes menores e independentes, que podem ser escalados e atualizados de forma independente. A arquitetura do Pinterest também inclui uma variedade de tecnologias para garantir a disponibilidade, escalabilidade, segurança e performance do sistema. Essas tecnologias incluem:
+Kubernetes: Kubernetes é um sistema de gerenciamento de containeres que ajuda a escalar e gerenciar os microsserviços do Pinterest.
+AWS: A AWS é uma plataforma de computação em nuvem que fornece ao Pinterest os recursos necessários para executar o sistema em escala.
+Docker: Docker é ma tecnologia de containerização que ajuda a criar e gerenciar os microsserviços do Pinterest.
+Django: Django é um framework de desenvolvimento web que ajuda a criar a interface do usuário do Pinterest.
+PostgreSQL: PostgreSQL é um sistema de banco de dados relacional que armazena os dados do Pinterest.
