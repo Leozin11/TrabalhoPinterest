@@ -6,32 +6,17 @@
 
 ![Thumbnail of Leap day](thumbnail.png)
 
-## O que é o DAO?
-O Data Access Object (DAO) é um padrão de design que é comumente usado na programação orientada a objetos para separar a lógica de acesso a dados da lógica de negócios de uma aplicação. Em outras palavras, o DAO é um objeto que fornece uma interface abstrata para interagir com o banco de dados e permite que as classes de negócio se concentrem na lógica de negócios.
+## Detalhando as características do sistema
+O Pinterest é uma plataforma de compartilhamento de imagens e vídeos que permite aos usuários salvar e organizar imagens e vídeos de interesse. O site foi lançado em 2010 e rapidamente se tornou um dos sites mais populares do mundo, com mais de 400 milhões de usuários ativos mensais. O Pinterest é um sistema de grande escala, com milhões de usuários e bilhões de imagens e vídeos. O sistema deve atender a uma variedade de requisitos, incluindo:
 
-## Origem do DAO
+Nicho de mercado: O Pinterest é voltado para um público global, com uma grande variedade de interesses.
+Número de clientes: O Pinterest tem mais de 400 milhões de usuários ativos mensais.
+Número de acessos simultâneos: O Pinterest pode receber milhões de acessos simultâneos.
+Requisitos de segurança: O Pinterest deve proteger os dados dos usuários, incluindo informações pessoais e imagens sensíveis.
+
+### Detalhes das características
 O DAO surgiu pela primeira vez na década de 1990 como parte da arquitetura de software Java EE. Ele foi projetado para abstrair a lógica de acesso a dados do código de negócios em aplicativos de camada de servidor. Com a popularização do paradigma de programação orientada a objetos, o DAO se tornou um padrão popular em muitas outras linguagens de programação.
 
 ## Como o DAO funciona?
 O DAO encapsula o código de acesso a dados em um objeto separado, permitindo que a lógica de negócios se concentre na manipulação dos objetos de domínio e não na manipulação dos dados subjacentes. O DAO fornece uma interface abstrata que é usada pelas classes de negócios para interagir com o banco de dados, e pode ser implementado usando diferentes tecnologias de acesso a dados, como JDBC, Hibernate, JPA, etc.
-
-## Vantagens do DAO
-O DAO oferece várias vantagens na programação de aplicativos orientados a objetos. Algumas dessas vantagens incluem:
-
-Separação de preocupações: O DAO separa a lógica de acesso a dados da lógica de negócios, permitindo que cada uma seja gerenciada separadamente.
-
-Reutilização de código: O DAO pode ser reutilizado em várias partes da aplicação, evitando a duplicação de código e reduzindo o risco de erros.
-
-Manutenção facilitada: Como a lógica de acesso a dados é encapsulada em um objeto separado, a manutenção do código é mais fácil. Mudanças em um banco de dados podem ser gerenciadas sem afetar as outras partes da aplicação.
-
-Melhor desempenho: O DAO pode ser otimizado para melhorar o desempenho, permitindo que as consultas sejam escritas de forma mais eficiente e que o acesso aos dados seja otimizado.
-
-## Implementação do DAO
-A implementação do DAO pode variar dependendo da tecnologia de acesso a dados usada e da estrutura da aplicação. No entanto, a maioria das implementações do DAO segue um padrão básico:
-
-Interface DAO: Define os métodos que serão implementados pela classe DAO concreta.
-
-Classe DAO concreta: Implementa os métodos definidos na interface DAO.
-
-Objeto de domínio: Representa os dados que são acessados pelo DAO.
 
