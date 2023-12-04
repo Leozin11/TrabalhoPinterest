@@ -34,8 +34,8 @@ PostgreSQL: PostgreSQL é um sistema de banco de dados relacional que armazena o
 ## Tecnologias Usadas no Sistema
  Dentre as tecxnologias utilizadas no sistema do Pinteret podemos destacar: Bancos de dados relacionais: O Pinterest usa bancos de dados relacionais para armazenar dados de usuários, pins, e outras informações. Plataformas de computação em nuvem: O Pinterest usa plataformas de computação em nuvem, como o Amazon Web Services, para hospedar seus servidores. E por fim Plataformas de análise de dados: O Pinterest usa plataformas de análise de dados para coletar e analisar dados de usuários.
 
- ## Padrões de Arquitetura
+## Padrões de Arquitetura
  Os padrões de arquitetura utilizadas no Pintest podemos colocar : Modelo de arquitetura cliente-servidor: O Pinterest usa um modelo de arquitetura cliente-servidor, onde os clientes e os servidores são dois componentes separados. O Padrão de segurança: O Pinterest usa uma variedade de técnicas de segurança para proteger os dados dos usuários, incluindo criptografia, autenticação, e autorização. E por fim Padrão de resiliência: O Pinterest usa técnicas para garantir que seus serviços permaneçam disponíveis mesmo em caso de falha de hardware ou software.
 
- ## Demais conceitos
+## Demais conceitos
  Por fim falando um pouco mais sobre os demais conceitos sobre a arquitetura utilizado pelo Pinterest podemos destacar: Flexibilidade e escalabilidade: A arquitetura do Pinterest é projetada para ser flexível e escalável, para que possa atender às necessidades de uma grande base de usuários. E o Desempenho: A arquitetura do Pinterest é projetada para garantir um bom desempenho, mesmo com uma grande base de usuários.
